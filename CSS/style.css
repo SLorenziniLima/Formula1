@@ -6,7 +6,9 @@
 }
 
 :root{
-    --font:"roboto"
+    --font:"roboto";
+    --cor1:#ffffff;
+
 }
 
 
@@ -14,7 +16,7 @@ header{
 
     height: 60px;
     display: flex;
-    align-items:center;
+    align-items: center;
     background-color: #121212;
     
 }
@@ -22,8 +24,16 @@ header{
 .navheader{
    width: 70%;
    display: flex;
-   justify-content:space-between;
+   justify-content:space-around;
    margin-left: 5%;
+   }
+
+   .nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
    }
 
 .containerlinks{
@@ -91,4 +101,84 @@ header{
     border-radius: 10px 10px 10px 10px;
     box-shadow: black 1px 1px 1px 1px;
     text-transform: uppercase;
+}
+
+.footertotal{
+    display: flex;
+    background-color:  #121212;
+    width: 100%;
+    height: 100px;
+}
+
+.footerpatrocinio{
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+       
+}
+
+.patrocinadores{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+}
+
+.ofertasgeral{
+
+    width: 100%;
+    height: 1500px;
+    background-color: #1E1C21;
+}
+
+h2{
+    font-family: var(--font);
+    color: var(--cor1);
+    font-size: 20px;
+    margin-left: 5%;
+    padding: 3%;
+    
+}
+
+.linhaoferta1{
+    margin-left: 8%;
+}
+
+.jogodoano{
+    width: 215px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #474343, black);
+}
+
+
+h3{
+    font-family: var(--font);
+    color: var(--cor1);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5%;
+    text-transform: uppercase;
+}
+p{
+    font-family:var(--font);
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 10px;
+    color: var(--cor1);
+    
+}
+
+.comprar {
+    width: 150px;
+    height: 30px;
+    background-color: #C31616;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: var(--font);
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
 }
